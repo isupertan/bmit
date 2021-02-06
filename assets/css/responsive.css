@@ -1,0 +1,32 @@
+@media only screen and (max-width: 576px){
+	.swiper-slide{
+		height: 50vh !important;
+	}
+	.swiper-slide h1{
+		font-size: 30px !important;
+	}
+	.buy-products .col-lg-4{
+		margin-bottom: 30px;
+	}
+	.swiper-slide h2{
+		font-size: 25px;
+	}
+	.buy-products-box{
+		align-items: center;
+		padding: 0px;
+		padding-bottom: 20px;
+	}
+	.sale .row .col-lg-12{
+		padding: 50px;
+	}
+	.sale .row .col-lg-12 h2{
+		font-size: 25px;
+	}
+	.special-product-box button{
+		margin-top: 0px;
+		margin-bottom: 20px;
+	}
+	.special-product-box .details{
+		margin-top: 10px;
+	}
+}

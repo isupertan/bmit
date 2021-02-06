@@ -1,0 +1,198 @@
+body{
+	width: auto;
+	overflow-x: hidden;
+}
+
+.top-header{
+	padding: 0px 0px;
+}
+.top-header .row{
+	margin: 0px;
+}
+.top-header .row .col-lg-3{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap !important;
+	align-items: center;
+}
+.header .row{
+	margin: 0px;
+}
+.logo img{
+	width: 30%;
+}
+.contact-header{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: center;
+}
+.contact-header i{
+	margin-right: 10px;
+	font-size: 17px;
+}
+.contact-header p{
+	margin-right:20px;
+	font-size: 17px;
+	margin-top: 10px;
+}
+.checkbtn{
+	font-size: 20px;
+	color: #fff;
+	float: right;
+	margin-right: 40px;
+	cursor: pointer;
+	display: none;
+}
+.menu{
+	padding: 0px;
+}
+#check{
+	display: none;
+}
+.header{
+	background-color: #000;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	height: 60px;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+.header .row{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-start;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+.header .col-lg-12{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 0px;
+}
+.header .col-lg-12 nav{
+	width: 100%;
+}
+.header .col-lg-12 .menu{
+	display: flex;
+	width: 100%;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	list-style-type: none;
+	margin-right: 300px;
+}
+.header .col-lg-12 ul{
+	margin-bottom: 0px;
+}
+.header .col-lg-12 .menu li a{
+	color: rgb(204, 163, 0);
+	font-weight: bold;
+	font-size: 17px;
+}
+.checkbtn{
+	font-size: 20px;
+	color: #000;
+	float: right;
+	cursor: pointer;
+	display: none;
+	padding: 0px;
+}
+#check{
+	display: none;
+}
+.whats-app {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    bottom: 40px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 3px 4px 3px #999;
+    right: 15px;
+    z-index: 100;
+}
+
+.my-float {
+    margin-top: 10px;
+}
+@media only screen and (max-width: 576px){
+	html,body{}
+	.contact-header{
+		display: none;
+	}
+	.header{
+		height: 0px !important;
+	}
+	.top-header .row{
+		flex-direction: row !important;
+		flex-wrap: nowrap;
+		padding: 0px;
+		margin: 0px;
+	}
+	.top-header .row .col-lg-3{
+		display: flex;
+		justify-content: flex-start;
+	}
+	.top-header .btn-lg{
+		width: 120px;
+		font-size: 15px;
+	}
+	.top-header img{
+		width: 160px;
+	}
+	.header{
+		height: 50px;
+	}
+	.header .row{
+		display: flex;
+		flex-direction: row-reverse;
+	}
+	.checkbtn{
+		display: block;
+		position: absolute;
+		top: -46px;
+		right: 5px;
+		margin: 0px;
+		padding: 0px !important;
+	}
+	.header .menu{
+	display: flex;
+	width: 100%;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	list-style-type: none;
+	position: fixed;
+		width: 100%;
+		height: 100vh;
+		left: -100%;
+			z-index: 2;
+			background: #000;
+			transition: 0.5s all;
+}
+	.menu li a{
+				color: #fff !important;
+	}
+	#check:checked ~ .menu{
+		left: 0;
+	}
+	.header .col-lg-12 .menu{
+	display: flex;
+	width: 100%;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	list-style-type: none;
+	margin-right: 300px;
+}
+}
