@@ -6,7 +6,10 @@
 	background-color: rgb(26, 13, 0);
 	padding: 30px;
 	color: #fff;
-	margin-top: 30px;
+	margin-top: 0px;
+}
+.footer img{
+	width: 60%;
 }
 .footer h3{
 	color: #fff;
@@ -23,6 +26,9 @@
 }
 .footer hr{
 	background-color: #fff;
+}
+.footer-icon a i{
+	color: #fff;
 }
 .copyright .col-lg-12{
 	display: flex;

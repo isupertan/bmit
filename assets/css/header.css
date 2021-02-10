@@ -19,7 +19,7 @@ body{
 	margin: 0px;
 }
 .logo img{
-	width: 30%;
+	width: 16%;
 }
 .contact-header{
 	display: flex;
@@ -148,7 +148,7 @@ body{
 		font-size: 15px;
 	}
 	.top-header img{
-		width: 160px;
+		width: 20%;
 	}
 	.header{
 		height: 50px;
@@ -160,11 +160,12 @@ body{
 	.checkbtn{
 		display: block;
 		position: absolute;
-		top: -46px;
-		right: 5px;
+		top: -45px;
+		right: 10px;
 		margin: 0px;
 		padding: 0px !important;
 	}
+	
 	.header .menu{
 	display: flex;
 	width: 100%;

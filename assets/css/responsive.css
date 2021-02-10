@@ -29,4 +29,45 @@
 	.special-product-box .details{
 		margin-top: 10px;
 	}
+	.features-box h3{
+		font-size: 20px;
+	}
+	.features-box img{
+		width: 30px;
+	}
+	.banner-header{
+		padding: 50px;
+		justify-content: center;
+	}
+	.banner-header h1{
+		font-size: 30px;
+	}
+	.footer img{
+		width: 70%;
+	}
+	.footer .col-md-3 a{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.product-details-section .col-lg-6{
+		margin-top: 30px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.social-media-link{
+		width: 100%;
+	}
+	.social-media-link a i{
+		font-size: 20px;
+	}
+	.contact-box .row .contact-info{
+		padding: 20px 0px;
+	}
+	.contact-box{
+		padding-bottom: 20px; 
+	}
 }
