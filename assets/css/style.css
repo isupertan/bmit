@@ -342,9 +342,13 @@ a:hover{
 	flex-direction: row;
 	justify-content: space-around;
 }
+.product-list-container .image-wrapper{
+	height: 300px;
+}
 .product-name{
 	color: #000;
 	text-transform: capitalize;
+	font-size: 20px !important;
 }
 .product-price{
 	text-align: center;
