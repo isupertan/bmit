@@ -143,6 +143,10 @@ body{
 .my-float {
     margin-top: 10px;
 }
+.contact-header a{
+	margin-right: 5px;
+	color: #000;
+}
 @media only screen and (max-width: 576px){
 	html,body{}
 	.contact-header{
