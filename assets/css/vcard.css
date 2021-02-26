@@ -21,7 +21,7 @@ a{
 }
 a:hover{
 	text-decoration: none;
-	color: black;
+	color:white;
 }
 
 .visiting-card{
@@ -95,7 +95,7 @@ h5{
 	font-size: 30px;
 }
 .contact-further{
-	background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(https://images.unsplash.com/photo-1611401433776-5295c244b757?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Nnx8amNifGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+	background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(https://www.arb-bearings.com/images/products/img/Cylindrical-Thrust-Bearings.jpg);
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
