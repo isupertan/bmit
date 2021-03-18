@@ -3,6 +3,19 @@
 	padding: 0px;
 	font-family: 'Playfair Display', serif;
 }
+.work-with .col-lg-6{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: rgb(183, 185, 189);
+	padding: 50px;
+}
+ul{
+	list-style: none;
+}
+.work-with li{
+	text-transform: uppercase;
+}
 .row{
 	margin-left: 0px;
 	margin-right: 0px;
