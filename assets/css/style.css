@@ -56,13 +56,14 @@ ul{
 	padding: 30px;
 }
 .buy-products-box{
-	height: 300px;
 	background-position: center;
 	background-size: cover;
 	display: flex;
 	flex-direction: column;
-	justify-content:flex-end;
-	align-items: flex-end;
+	background-color: grey;
+	height: 100%;
+	padding: 30px;
+	color: #fff;
 	padding-right: 30px;
 	padding-bottom: 20px;
 }
@@ -198,7 +199,7 @@ ul{
 	margin-bottom: 10px;
 }
 .special-product-box .image-wrapper{
-		height: 300px;
+	
 		width: 100%
 }
 .special-product-box button{
@@ -214,7 +215,6 @@ ul{
 	color: #fff;
 }
 .special-product-box .image-wrapper img{
-	height: 100%;
 	width: 100%;
 }
 .testimonial .image-wrapper{
